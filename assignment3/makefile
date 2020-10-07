@@ -22,3 +22,4 @@ zip:
 
 clean:
 	$(RM) *.class
+	$(RM) *.zip

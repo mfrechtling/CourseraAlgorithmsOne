@@ -21,7 +21,7 @@ public class FastCollinearPoints {
     }
 
     private static boolean checkValidPoints(Point[] points) {
-        for (int i = 0; i < points.length - 1; i++) {
+        for (int i = 0; i < points.length; i++) {
             if (points[i] == null) return false;
             for (int j = i + 1; j < points.length; j++) {
                 if (points[j] == null || points[i].compareTo(points[j]) == 0) return false;
